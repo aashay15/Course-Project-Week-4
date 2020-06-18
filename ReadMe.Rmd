@@ -1,0 +1,21 @@
+# Getting-and-Cleaning-Data-Week-4-CourseProject
+
+This repo was created to finish the assignment for week 4 of Getting and Cleaning Data Coursera course.
+* First, download and unzip the data file into your R working directory.
+* Second, download the R source script into your R working directory.
+* Finally, execute R source script to generate tidy data file.
+
+### Data description
+The X data set contain the signals and readings from the wearable while the Y data set contains the activity type performed by the people in the test
+
+### How does the R Script works 
+Firstly the test and train sets work combined in both the X and Y data sets, after that the completed Y and X data sets were binded by row.
+After that the columns were extracted where the values were estimated by the mean and standard deviation
+After that descriptive activities name were used to name the activities in the complete Y data set
+After that X total dataset was labelled with col names which were evaluated results of mean and sd
+finally a tidy data set was created by grouping the dataset activity labels by the subject and a col for the average of the activity label per person was added
+
+### New dataset
+The new generated dataset contained variables calculated based on the mean and standard deviation. Each row of the dataset is an average of each activity type for all subjects.
+
+### The code was written based on the instruction of this assignment
